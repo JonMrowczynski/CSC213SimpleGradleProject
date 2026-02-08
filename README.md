@@ -15,17 +15,16 @@ declare this as one of our dependencies! Take a look at the `build.gradle.kts` t
 1. Take a look at the `Range` class in the *src/main/java* directory and get a feel for what the code should do based 
 on the javadocs. 
    - **Notice that the *java* directory is colored blue!**
-   - Intellij is letting us know the exact directory Java source files are expected in by coloring that directory in 
-     blue. 
+   - Intellij is letting us know the exact directory Java source files are expected in by coloring that directory blue. 
      Based on the implemented build system, it could be different!
 
 ### Task 2:
-1. Now right-click on the `Range` `class` and then click on *Go To -> Test -> RangeTest* to automatically be taken to 
+1. Right-click on the `Range` `class`, click on *Go To -> Test -> RangeTest* to automatically be taken to 
 the `RangeTest` `class` in the *src/test/java* directory.
-   - If you were to navigate to this directory in the left navigation pane, you will notice that **all testing code is 
-     expected in the directory colored green**.
+   - If you were to manually navigate to this directory in the left navigation pane, you will notice that **all testing 
+     code is expected in the directory colored green**.
    - The testing code location could be different based on the implemented build system! It is also configurable, 
-     but we will use their default locations.
+     but we will always use their default locations, which is good practice.
 2. Notice we have multiple **inner classes** inside `RangeTest`. These are called **nested classes**. They have many 
    uses, but here we are using them to help us organize our testing code!
 
@@ -41,6 +40,7 @@ the `RangeTest` `class` in the *src/test/java* directory.
    - This can be found by clicking on the elephant on the right toolbar, going to *Tasks -> verification* and then 
      double-clicking *test*.
 
-2. Tests should fail. :( Can you fix the tests (and possibly the source code) to verify that the `Range` `class` 
+2. Tests should fail. :,( Can you fix the tests (and possibly the source code) to verify that the `Range` `class` 
 functions properly?
-    - Note that you can run **individual tests** by clicking on the run button on the same line as the test.
+    - Note that you can run **individual tests** by clicking on the run button on the same line as the test. This is 
+      often desirable to do since running an entire test suite on a code base could take minutes or hours!
