@@ -60,7 +60,7 @@ class RangeTest {
 	@Nested class ThreeParamsTests {
 		
 		/**
-		 * Tests that the
+		 * Tests that the returned array contains the correctly spaced out values.
 		 */
 		@Test void testSteppedRange() { assertArrayEquals(new int[]{1, 3, 5, 7}, Range.range(1, 7, 2)); }
 	}
